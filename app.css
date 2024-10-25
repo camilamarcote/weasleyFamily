@@ -1,0 +1,70 @@
+.character {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.character img {
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(158, 22, 22);
+}
+h1 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 180px;
+    color: rgb(143, 133, 47);
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    perspective: 1000px; /* Añadir perspectiva */
+    width: 18rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra normal */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(153, 40, 20, 0.767);
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 1.9); /* Sombra más oscura al hacer hover */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    color: #050505;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    color: #030303;
+}
+audio {
+    max-width: 100px;   
+}
